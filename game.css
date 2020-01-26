@@ -1,0 +1,50 @@
+#board table {
+
+    border-collapse: collapse;
+}
+
+#board table tbody {
+    background-color: yellow;
+    border: 10px solid yellow;
+}
+
+#board table td {
+    padding: 5px;
+
+}
+
+#board .space, .player1, .player2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+.player1 {
+     background-color: black;
+}
+
+.player2 {
+    background-color: red;
+}
+
+#board .dropBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #229922;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#board .dropBtn:hover {
+    border: 3px solid yellow;
+}
+
+#board .dropBtn:disabled {
+    border: none;
+    background-color: gray;
+    cursor: unset;
+}
