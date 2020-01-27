@@ -1,11 +1,14 @@
 #board table {
 
+    /* https://www.w3schools.com/cssref/pr_border-collapse.asp */
     border-collapse: collapse;
 }
 
 #board table tbody {
     background-color: yellow;
-    border: 10px solid yellow;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
 }
 
 #board table td {
@@ -16,8 +19,10 @@
 #board .space, .player1, .player2 {
     width: 50px;
     height: 50px;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
     border-radius: 50%;
     background-color: white;
+    /* http://proexper.blogspot.com/2014/09/css-comparing-among-inline-and-block.html */
     display: inline-block;
 }
 
@@ -36,6 +41,7 @@
     background-color: #229922;
     color: white;
     font-size: 30px;
+    /* https://www.w3schools.com/cssref/pr_class_cursor.asp */
     cursor: pointer;
 }
 
